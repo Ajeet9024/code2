@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Install & Play One Game - ServiceGPT</title>
+
+    <style>
+        /* Updated styling for header, footer, and general layout */
+        header {
+            background-color: #6809f6;
+            color: #FFFFFF;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: #333333;
+    color: #CCCCCC;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #efe9e9;
+        }
+
+        h1 {
+            color: #f8f8f8;
+            font-size: 24px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        h2 {
+            text-align: center;
+        }
+        
+        .youtube-video {
+            margin: 20px 0;
+            text-align: center;
+            
+        }
+        
+        iframe {
+            padding-top: 56.25%
+            border: none;
+            border-radius: 10px;
+        }
+        
+        .offer {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 20px 0;
+            padding: 5px;
+            border-radius: 10px;
+            height: 50px;
+            margin-bottom: 200px;
+            ;
+            
+        }
+
+        .offer img {
+            width: 60px; /* Set the size of the circle */
+            height: 60px; /* Set the size of the circle */
+            border-radius: 90%; /* Make it a circle */
+            overflow: hidden; /* Ensure the image stays inside the circle */
+            display: flex;
+            align-items: center; /* Vertically center the image */
+            justify-content: center;
+            object-fit: cover;
+            size: 10px;
+        }
+
+        .offer .text {
+            flex: 1;
+            text-align: center;
+            font-size: 14px;
+            color: #0a0a0a;
+        }
+
+        .offer button {
+            background-color: #6809f6;
+            color: #FFFFFF;
+            border: none;
+            padding: 8px 16px;
+            font-size: 10px;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+            left: 12px;
+        }
+
+        .offer button:hover {
+            background-color: #004C99;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Verify WINZO App Offers to Get Followers
+    </header>
+    
+    
+    <!-- Offer section -->
+    <div class="offer">
+            <img src="https://play-lh.googleusercontent.com/sO9TLOabPNbdV6B8rGVsX2HcUOLbXdMOATTNOpTSPAOnzjOubytCGljW-SBCgVbtqL4T" alt="Winzo Icon">
+            <div class="text">
+                <p>Install Winzo and Play Game</p>
+                <p>Create a fresh account</p>
+            </div>
+            <button onclick="redirectToOffer()">OPEN</button>
+        </div>
+
+        <!-- YouTube video section -->
+        <div class="youtube-video">
+        
+            <iframe
+                src="https://www.youtube.com/embed/OAyLGRUYmrg"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+        </div>
+
+
+    <script>
+        function redirectToOffer() {
+            const offerUrl = "https://winzo.onelink.me/gu8K/jzpkkr8f";
+            window.location.href = offerUrl;
+        }
+
+        // Accessibility script
+        (function() {
+            "use strict";
+            const body = document.body;
+            body.addEventListener("mousedown", () => body.classList.add("using-mouse"));
+            body.addEventListener("keydown", () => body.classList.remove("using-mouse"));
+        })();
+    </script>
+</body>
+</html>
